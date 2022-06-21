@@ -1,8 +1,9 @@
 import React from 'react';
-import './app.sass';
+
+import {Layout} from './pages/Layout';
 
 export const App = () => {
   return (
-    <div className="app"></div>
+    <Layout />
   );
 };
