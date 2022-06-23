@@ -1,9 +1,7 @@
 import './header-style.sass'
 
-import React from 'react';
-// @ts-ignore
-import { ReactComponent as Logo } from '../../assets/logo.svg';
-import { Menu } from '../Menu-Header/Menu';
+import { Logo } from '../Logo/Logo';
+import { Menu } from '../Menu/Menu';
 
 export const Header = () => {
   return (
